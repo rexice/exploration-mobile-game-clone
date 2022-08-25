@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 178667704}
-  spawnAmount: 10000
+  spawnAmount: 5000
 --- !u!1 &178667704
 GameObject:
   m_ObjectHideFlags: 0
