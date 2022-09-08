@@ -416,7 +416,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 25
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -616,7 +616,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 24
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1295,14 +1295,14 @@ Tilemap:
     m_Data: {fileID: 1113098519, guid: ff6d81d762bcae844a4ef9dec6df29b6, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 1345688976, guid: ff6d81d762bcae844a4ef9dec6df29b6, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 1702401265, guid: ff6d81d762bcae844a4ef9dec6df29b6, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -1325,10 +1325,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1345688976, guid: ff6d81d762bcae844a4ef9dec6df29b6, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1702401265, guid: ff6d81d762bcae844a4ef9dec6df29b6, type: 3}
   - m_RefCount: 12
     m_Data: {fileID: 266613014, guid: ff6d81d762bcae844a4ef9dec6df29b6, type: 3}
   - m_RefCount: 1
@@ -1624,6 +1624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414308838}
   - component: {fileID: 1414308839}
+  - component: {fileID: 1414308840}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1674,6 +1675,28 @@ MonoBehaviour:
   toCheck: []
   currentNeighbours: []
   path: []
+--- !u!195 &1414308840
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414308835}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1510906093
 GameObject:
   m_ObjectHideFlags: 0
